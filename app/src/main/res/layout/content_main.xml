@@ -12,8 +12,15 @@
     tools:context="com.example.administrator.myapplication.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <TextView
+    <Button
+        android:id="@+id/threadhandler_download_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="ThreadHandler下载" >
+    </Button>
+
+    <ImageView
+        android:id="@+id/threadhandler_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 </RelativeLayout>
